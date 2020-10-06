@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/4.3/examples/album/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>VARIETÉ - Todo lo que busques está aquí</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <!--CARRITO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/nav.css">
+
+    <!--JS del HEADER-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><span style="font-weight: normal;">VARIE</span>TÉ</label>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="categories.html">Categorías</a></li>
+                <li><a href="sell.html">Vender</a></li>
+                <li><a href="login.html">Mi Cuenta</a></li>
+                <!--PC-->
+                <li id="pc"><a href="#" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                <!--MOVIL-->
+                <li id="movil"><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+            </ul>
+        </nav>
+        <div class="conteiner">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">0</span>
+                    <div class="shopping-cart-total">
+                    </div>
+                </div>
+
+                <ul class="shopping-cart-items">
+                </ul>
+
+                <a href="cart.html" class="button">Checkout</a>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <div class="banner" id="arriba">
+        <div class="container">
+
+            <p class="floatL desaparece" style="padding-top: 10px;">A partir de $2500 el envío a tu casa es ¡GRATIS! - 20% de descuento en tiendas online</p>
+            <p style="margin-bottom: 0px;" class="texto-derecha floatR desaparece"><input type="text" name="buscador" placeholder="Buscar..." class="buscador" id="buscador"><button class="btn-search" id="buttonSearch"><i class="material-icons">search</i></button></p>
+            <div class="clearfix"></div>
+
+        </div>
+    </div>
+
+    <main role="main">
+        <div class="container mt-5">
+            <div class="text-center p-4">
+                <h2>Descripción del producto</h2>
+                <p class="lead">Encontrarás aquí toda la información del producto seleccionado.</p>
+            </div>
+            <h3 id="categoryName" style="text-align: center;"></h3>
+            <hr class="my-3">
+            <dl>
+                <dt>Imágenes ilustrativas</dt>
+                <dd>
+                    <div class="row text-center text-lg-left pt-2" id="productImagesGallery">
+                    </div>
+                </dd>
+                <dt>Descripción</dt>
+                <dd>
+                    <p id="categoryDescription"></p>
+                </dd>
+
+                <dt>Criterio para incluir fotos y descripción del producto</dt>
+                <dd>
+                    <p id="productCriteria"></p>
+                </dd>
+            </dl>
+            <a type="button" class="btn btn-orange btnAgregarAlCarrito" href="categories.html">Agregar al Carrito</a>
+            <a type="button" class="btn btn-orange" href="categories.html">Comprar Ahora</a>
+            <!--btn-lg btn-block-->
+        </div>
+    </main>
+    <div id="spinner-wrapper">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-muted">
+        <div class="contenedorVid">
+            <div class="flexFoot">
+                <a href="" target="_blank">
+                    <img src="img/instagram.png" alt="" class="icoFoot1">
+                </a>
+                <a href="" target="_blank">
+                    <img src="img/facebook.png" alt="" class="icoFoot">
+                </a>
+                <a href="">
+                    <img src="img/twitter.png" alt="" class="icoFoot">
+                </a>
+                <a href="#arriba">
+                    <img src="img/arriba.png" alt="" class="icoFoot arriba">
+                </a>
+            </div>
+            <p class="DerechosR"> &copy; Todos los derechos reservados 2020 - <a href="" class="aFoot">VARIETÉ</a></p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/category-info.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>

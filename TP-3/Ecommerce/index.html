@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/4.3/examples/album/ -->
+<html lang="en-es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>VARIETÉ - Todo lo que busques está aquí</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--CARRITO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/carrito.css">
+
+    <!--CSS-->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--NAV-->
+    <link rel="stylesheet" href="css/nav.css">
+
+    <!--JS del HEADER-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><span style="font-weight: normal;">VARIE</span>TÉ</label>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="categories.html">Categorías</a></li>
+                <li><a href="sell.html">Vender</a></li>
+                <li><a href="login.html">Mi Cuenta</a></li>
+                <!--<ul class="navbar-right">-->
+                <!--PC-->
+                <li id="pc"><a href="cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                <!--MOVIL-->
+                <li id="movil"><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                <!--</ul>-->
+            </ul>
+        </nav>
+
+        <div class="conteiner">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">0</span>
+                    <div class="shopping-cart-total">
+                    </div>
+                </div>
+    
+                <ul class="shopping-cart-items">
+                </ul>
+    
+                <a href="cart.html" class="button">Checkout</a>
+            </div>
+        </div>
+    </header>
+
+
+    <br><br>
+    <div class="banner" id="arriba">
+        <div class="container">
+            <br>
+            <p class="floatL desaparece" style="padding-top: 10px;">A partir de $2500 el envío a tu casa es ¡GRATIS! - 20% de descuento en tiendas online</p>
+            <p style="margin-bottom: 0px;" class="texto-derecha floatR desaparece"><input type="text" name="buscador" placeholder="Buscar..." class="buscador" id="buscador"><button class="btn-search" id="buttonSearch"><i class="material-icons">search</i></button></p>
+            <div class="clearfix"></div>
+            <br>
+        </div>
+    </div>
+    <!-- MAIN -->
+    <main role="main">
+        <!-- FOTO PRINCIPAL -->
+        <section class="jumbotron text-center principal">
+            <div class="m-5">
+                <h1></h1>
+            </div>
+        </section>
+
+        <h1 style="display: none;">VARIETÉ</h1>
+
+
+
+
+        <!-- SLIDER PRINCIPAL -->
+        <div id="carouselExampleIndicators" class="carousel slide slider" data-ride="carousel" >
+            <ol class="carousel-indicators">
+                
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slider11.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider21.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider31.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider41.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <!------------------->
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="categories.html" class="card mb-4 shadow-sm custom-card">
+                            <img class="bd-placeholder-img card-img-top" src="img/cat1.jpg">
+                            <h3 class="m-3">Autos (122)</h3>
+                            <div class="card-body">
+                                <p class="card-text">Los mejores precios en autos 0 kilómetro, de alta y media gama.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="categories.html" class="card mb-4 shadow-sm custom-card">
+                            <img class="bd-placeholder-img card-img-top" src="img/cat2.jpg">
+                            <h3 class="m-3">Juguetes (354)</h3>
+                            <div class="card-body">
+                                <p class="card-text">Encuentra aquí los mejores precios para niños/as de cualquier edad.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="categories.html" class="card mb-4 shadow-sm custom-card">
+                            <img class="bd-placeholder-img card-img-top" src="img/cat3.jpg">
+                            <h3 class="m-3">Muebles (157)</h3>
+                            <div class="card-body">
+                                <p class="card-text">Muebles antiguos, nuevos y para ser armados por uno mismo.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="categories.html" class="card mb-4 shadow-sm custom-card">
+                            <img class="bd-placeholder-img card-img-top" src="img/cat4.jpg">
+                            <h3 class="m-3">Herramientas (452)</h3>
+                            <div class="card-body">
+                                <p class="card-text">Herramientas para cualquier tipo de trabajo.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="categories.html" class="card mb-4 shadow-sm custom-card">
+                            <img class="bd-placeholder-img card-img-top" src="img/cat5.jpg">
+                            <h3 class="m-3">Computadoras (724)</h3>
+                            <div class="card-body">
+                                <p class="card-text">Todo en cuanto a computadoras, para uso de oficina y/o juegos.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="categories.html" class="card mb-4 shadow-sm custom-card">
+                            <img class="bd-placeholder-img card-img-top" src="img/cat6.jpg">
+                            <h3 class="m-3">Vestimenta (841)</h3>
+                            <div class="card-body">
+                                <p class="card-text">Gran variedad de ropa, nueva y de segunda mano.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <a type="button" class="btn btn-light btn-lg btn-block" href="categories.html">Ver todas</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-muted">
+        <div class="contenedorVid">
+            <div class="flexFoot">
+                <a href="" target="_blank">
+                    <img src="img/instagram.png" alt="" class="icoFoot1">
+                </a>
+                <a href="" target="_blank">
+                    <img src="img/facebook.png" alt="" class="icoFoot">
+                </a>
+                <a href="">
+                    <img src="img/twitter.png" alt="" class="icoFoot">
+                </a>
+                <a href="#arriba">
+                    <img src="img/arriba.png" alt="" class="icoFoot arriba">
+                </a>
+            </div>
+            <p class="DerechosR"> &copy; Todos los derechos reservados 2020 - <a href="" class="aFoot">VARIETÉ</a></p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
